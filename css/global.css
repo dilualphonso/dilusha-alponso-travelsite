@@ -1,27 +1,29 @@
-@import 'mixin' ;
+@import 'mixin';
 
-body,html,head {
+body,
+html,
+head {
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h1{
+h1 {
     font-size: 80px;
     color: #FFFFFF;
 
 }
 
-h3{
+h3 {
     font-size: 22px;
 }
 
-hr{
-    
-    
-    width:90%;
+hr {
+
+
+    width: 90%;
     border-top: 1px solid #000;
-   
+
 }
 
 /*Navigation pages styles are added*/
@@ -34,8 +36,8 @@ hr{
     display: flex;
     justify-content: space-between;
     position: fixed;
-    top:0;
-    width:100%;
+    top: 0;
+    width: 100%;
 
 }
 
@@ -46,6 +48,7 @@ hr{
     margin-left: 100px;
 
 }
+
 .nav__logo a {
     cursor: pointer;
     text-decoration: none;
@@ -59,8 +62,9 @@ hr{
     margin-right: 50px;
 
 
-  
+
 }
+
 .nav__links li {
     padding-left: 10px;
     margin: 10px;
@@ -83,10 +87,10 @@ hr{
     color: white;
     transform: scale(1.2);
     text-shadow: none;
-  }
+}
 
 .nav__links--Home a {
-    border-bottom: 5px solid #DB7A4E ;
+    border-bottom: 5px solid #DB7A4E;
 }
 
 
@@ -106,7 +110,7 @@ hr{
     position: fixed;
     bottom: 0pt;
     left: 0pt */
-   
+
 
 }
 
@@ -118,218 +122,219 @@ hr{
 
 .footer__hour {
 
-    margin-right:50px;
+    margin-right: 50px;
 
 }
 
 .footer__contact-title {
     margin-right: 50px;
     display: flex;
-    color:#335576;
-   
-  
+    color: #335576;
+
+
 
 }
-.footer__hour-title{
+
+.footer__hour-title {
     color: #335576;
 }
 
 .footer__hour-Details {
     display: flex;
     margin-right: 100px;
-   align-items: baseline;
+    align-items: baseline;
 }
 
 .footer__hour-days {
-   margin-top: 20px;
-   margin-right: 50px;
-   color: #DB7A4E;
-    
+    margin-top: 20px;
+    margin-right: 50px;
+    color: #DB7A4E;
+
 }
-.footer__contact-subtitle{
+
+.footer__contact-subtitle {
     margin-top: 40px;
-    padding-top:0px;
-    color:#DB7A4E;
+    padding-top: 0px;
+    color: #DB7A4E;
 
 }
 
-.footer__hour-Daytime{
+.footer__hour-Daytime {
     margin-right: 0px;
     padding-bottom: 10px;
     margin-top: 0pxs;
-   
+
 
 }
 
-.footer__social-img{
-    width:20px;
+.footer__social-img {
+    width: 20px;
     height: 20px;
     margin-right: 10px;
 
 }
 
-.footer__social-title{
+.footer__social-title {
     margin-bottom: 60px;
     color: #335576;
 
 }
 
 
-.footer__social{
+.footer__social {
     margin-right: 130px;
 }
 
 
 @media (min-width: 1024px) and (max-width: 1279px) {
-    
-   
-    
-    .footer__social-imgs {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-     
-      
-    }
 
-    .footer__hour-daytime{
-        margin: 0;
-    }
 
-    .footer__social-title{
-        margin-right:50px
-    }
-}
 
-@media (min-width: 768px) and (max-width: 1024px) {
-    .footer{  
-        display: flex;
-    margin-top: 30px;
-    
-  
-    background-color: #FEFAF5;
-
-    }
-    
     .footer__social-imgs {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        
-       
-        
-      } 
 
-      .footer__social-title{
-        margin-right:0px;
+
+    }
+
+    .footer__hour-daytime {
+        margin: 0;
+    }
+
+    .footer__social-title {
+        margin-right: 50px
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .footer {
+        display: flex;
+        margin-top: 30px;
+
+
+        background-color: #FEFAF5;
+
+    }
+
+    .footer__social-imgs {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+
+
+    }
+
+    .footer__social-title {
+        margin-right: 0px;
         margin-bottom: 20px;
     }
 
-    .nav{
+    .nav {
 
-      
-    background-color: #FFFFFF;
-    padding-left: 10px;
-    display: flex;
-    justify-content: left;
-    position: fixed;
-    top:0;
-    width:100%;
+
+        background-color: #FFFFFF;
+        padding-left: 10px;
+        display: flex;
+        justify-content: left;
+        position: fixed;
+        top: 0;
+        width: 100%;
 
     }
-    .nav__logo{
+
+    .nav__logo {
         margin-right: 50px;
         margin-left: 50px;
     }
-    
+
 
     .nav__links li {
         padding-left: 10px;
-        
+
         color: #000;
         font-size: 15px;
-        
-    
+
+
     }
 
     .footer__contact {
         margin-right: 0;
         padding-left: 0;
         margin-left: 0;
-      
+
     }
 
-    .footer__hour{
+    .footer__hour {
         margin-right: 0;
-        width:350px
-
+        width: 350px
     }
 
-    .footer__social{
+    .footer__social {
         margin-right: 100px;
     }
-    }
-
-    @media (min-width: 576px) and (max-width: 767px){
-        .nav{
-
-      
-            background-color: #FFFFFF;
-            padding-left: 10px;
-            display: flex;
-            flex-direction: column;
-            justify-content: left;
-            position: fixed;
-            top:0;
-            width:100%;
-        
-            }
-
-            .nav__logo{
-               
-                margin-left: 50px;
-                
-            }
-
-            .footer{  
-                display: flex;
-                flex-direction: column;
-            margin-top: 30px;
-            
-          
-            background-color: #FEFAF5;
-        
-            }
-
-            .footer__contact {
-                
-                margin-left: 10px;
-              
-            }
-
-            .footer__hour{
-                margin-left: 50px;
-                
-        
-            }
-            .footer__social{
-                margin-left: 50px;
-            }
-
-           
-.nav__links {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    padding-left: 10px;
-    margin-right: 50px;
-    margin-left: 50px;
-
-
-  
 }
 
+@media (min-width: 576px) and (max-width: 767px) {
+    .nav {
+
+
+        background-color: #FFFFFF;
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        position: fixed;
+        top: 0;
+        width: 100%;
+
+    }
+
+    .nav__logo {
+
+        margin-left: 50px;
+
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+
+
+        background-color: #FEFAF5;
+
+    }
+
+    .footer__contact {
+
+        margin-left: 10px;
+
+    }
+
+    .footer__hour {
+        margin-left: 50px;
+
+
+    }
+
+    .footer__social {
+        margin-left: 50px;
+    }
+
+
+    .nav__links {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        padding-left: 10px;
+        margin-right: 50px;
+        margin-left: 50px;
+
+
 
     }
 
 
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +9,13 @@
     <title>Document</title>
 
 </head>
+
 <body>
 
     <header>
         <div class="nav">
             <h2 class="nav__logo"> <a href="/index.html">
-                Travel Site
+                    Travel Site
                 </a>
             </h2>
 
@@ -25,77 +27,84 @@
 
             </ul>
         </div>
-    </header> 
+    </header>
 
     <main>
-<div class="container">
-
-    
-    <h2 class="container__title">Contact us</h2>
-</div>
-</div>
+        <div class="container">
 
 
-<div class="formcontainer">
-    <form  class="formcontainer__form" method="post" action="contact-form-process.php">
+            <h2 class="container__title">Contact us</h2>
+        </div>
+        </div>
 
-        <h3 class="formcontainer__title">Let's start a conversation</h3>
-        <div class="formcontainer__group">
-            <label for="Name" class="formcontainer__firstname">First name</label>
-            <div class="formcontainer_group-firstname">
-                <input type="text" id="Name" name="Name" class="formcontainer__field" required placeholder="Your First name..">
+
+        <div class="formcontainer">
+            <form class="formcontainer__form" method="post" action="contact-form-process.php">
+
+                <h3 class="formcontainer__title">Let's start a conversation</h3>
+                <div class="formcontainer__group">
+                    <label for="Name" class="formcontainer__firstname">First name</label>
+                    <div class="formcontainer_group-firstname">
+                        <input type="text" id="Name" name="Name" class="formcontainer__field" required
+                            placeholder="Your First name..">
+                    </div>
+                </div>
+                <div class="formcontainer__group">
+                    <label for="Name" class="formcontainer__lastname">Last name</label>
+                    <div class="formcontainer_group-lastname">
+                        <input type="text" id="Name" name="Name" class="formcontainer__field" required
+                            placeholder="Your Last name..">
+                    </div>
+                </div>
+
+                <div class="formcontainer__group">
+                    <label for="Email" class="formcontainer__email">Your email address</label>
+                    <div class="formcontainer__email">
+                        <input type="email" id="Email" name="Email" placeholder="Your email.."
+                            class="formcontainer__field" required>
+                    </div>
+                </div>
+
+                <div class="formcontainer__group">
+                    <div class="formcontainer__country">
+                        <label for="country">Country</label>
+                        <div>
+                            <select id="country" name="country" class="formcontainer__dropdown">
+                                <option value="hawaii">Hawaii</option>
+                                <option value="iceland">Iceland</option>
+                                <option value="greece">Greece</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="formcontainer__group">
+
+                    <label class="formcontainer__subjecttxt" for="subject">Message</label>
+                    <div class="formcontainer__subject">
+                        <textarea class="formcontainer__textarea" name="subject" placeholder="Write something.."
+                            style="height:200px"></textarea>
+                    </div>
+                </div>
+                <div class="formcontainer__group">
+                    <input type="submit" value="Submit" class="formcontainer__btn">
+                </div>
+            </form>
+
+            <div class="formcontainer__google">
+
+                <h2>Get direction</h2>
+                <P>1008 Wilson Ave, North York, ON M3K 1G6</P>
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2883.1328987583233!2d-79.48074302381919!3d43.728565971098746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b31839070d815%3A0x146b92743fddf161!2s1008%20Wilson%20Ave%2C%20North%20York%2C%20ON%20M3K%201G6!5e0!3m2!1sen!2sca!4v1706393905879!5m2!1sen!2sca"
+                    width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
+
         </div>
-        <div class="formcontainer__group">
-            <label for="Name" class="formcontainer__lastname">Last name</label>
-            <div class="formcontainer_group-lastname">
-                <input type="text" id="Name" name="Name" class="formcontainer__field" required placeholder="Your Last name..">
-            </div>
-        </div>
-
-        <div class="formcontainer__group">
-            <label for="Email" class="formcontainer__email">Your email address</label>
-            <div class="formcontainer__email">
-                <input type="email" id="Email" name="Email" placeholder="Your email.." class="formcontainer__field" required>
-            </div>
-        </div>
-
-   <div class="formcontainer__group">
-    <div class="formcontainer__country">
-        <label for="country">Country</label>
-        <div>
-        <select id="country" name="country" class="formcontainer__dropdown">
-          <option value="hawaii">Hawaii</option>
-          <option value="iceland">Iceland</option>
-          <option value="greece">Greece</option>
-        </select>
-        </div>
-    </div>
-   </div>
-   <div class="formcontainer__group">
-   
-        <label class="formcontainer__subjecttxt" for="subject">Message</label>
-        <div class="formcontainer__subject">
-        <textarea class="formcontainer__textarea" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-    </div>
-    </div>
-        <div class="formcontainer__group">
-            <input type="submit" value="Submit" class="formcontainer__btn">
-        </div>
-      </form>
-
-      <div class="formcontainer__google">
-
-        <h2 >Get direction</h2>
-        <P>1008 Wilson Ave, North York, ON M3K 1G6</P>
-
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2883.1328987583233!2d-79.48074302381919!3d43.728565971098746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b31839070d815%3A0x146b92743fddf161!2s1008%20Wilson%20Ave%2C%20North%20York%2C%20ON%20M3K%201G6!5e0!3m2!1sen!2sca!4v1706393905879!5m2!1sen!2sca" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-
-</div>
 
     </main>
-    
+
     <footer>
         <div class="footer">
             <div class="footer__contact">
@@ -111,7 +120,7 @@
                         <h4 class="footer__hour-days">Monday-Friday</h4>
                         <p>9am-7pm</p>
                     </div>
-                    <div> 
+                    <div>
                         <h4 class="footer__hour-days">Saturday </h4>
                         <p>10am-4pm</p>
 
@@ -128,20 +137,21 @@
                 <h2 class="footer__social-title">Social</h2>
                 <div class="footer__social-imgs">
 
-                <a href="https://www.instagram.com/"> <img class="footer__social-img facebook" src="/asset/icons/icon-instagram.png"
-                    alt="Instagram"></a>
+                    <a href="https://www.instagram.com/"> <img class="footer__social-img facebook"
+                            src="/asset/icons/icon-instagram.png" alt="Instagram"></a>
 
-                <a href="https://www.facebook.com/"><img class="footer__social-img insta" src="/asset/icons/icon-facebook.png"
-                        alt="Facebook"> </a>
-                <a href="https://www.twitter.com/"><img class="footer__social-img twitter" src="/asset/icons/icon-twitter.png"
-                        alt="Twitter"></a>
-                    </div>
+                    <a href="https://www.facebook.com/"><img class="footer__social-img insta"
+                            src="/asset/icons/icon-facebook.png" alt="Facebook"> </a>
+                    <a href="https://www.twitter.com/"><img class="footer__social-img twitter"
+                            src="/asset/icons/icon-twitter.png" alt="Twitter"></a>
+                </div>
 
             </div>
         </div>
 
     </footer>
 
-    
+
 </body>
+
 </html>
