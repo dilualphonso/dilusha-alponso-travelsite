@@ -73,6 +73,24 @@
 
 }
 
+.nav__links--hawaii a{
+
+    border-bottom: 2px solid #DB7A4E;
+
+}
+
+.nav__links--iceland a{
+
+    border-bottom: 2px solid #DB7A4E;
+
+}
+
+.nav__links--greece a{
+
+    border-bottom: 2px solid #DB7A4E;
+
+}
+
 .destination__card-bottom {
     margin-right: 15px;
 

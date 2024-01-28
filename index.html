@@ -13,15 +13,16 @@
 
     <header>
         <div class="nav">
-            <h2 class="nav__logo">
+            <h2 class="nav__logo"> <a href="/index.html">
                 Travel Site
+                </a>
             </h2>
 
             <ul class="nav__links">
-                <li><a href="/">Home</a></li>
-                <li><a href="/">Hawaii</a></li>
-                <li><a href="/">Iceland</a></li>
-                <li><a href="/">Greece</a></li>
+                <li class="nav__links--Home"><a href="/index.html">Home</a></li>
+                <li><a href="/pages/hawaii.html">Hawaii</a></li>
+                <li><a href="/pages/iceland.html">Iceland</a></li>
+                <li><a href="/pages/greece.html">Greece</a></li>
 
             </ul>
         </div>
@@ -32,7 +33,10 @@
                 <h2 class="maincontainer__title"> Travelling comes with endless discoveries</h2>
                 <p class="maincontainer__paragraph">Don't let dreams be just dreams.Experience the world
                     by booking a vacation with us now.</p>
-                <button class="maincontainer__button"> Get started</button>
+                    <a href="./pages/getstarted.html">  <button class="maincontainer__button"> Get started   
+
+                </button>
+            </a>
             </div>
             <img class="maincontainer__Image" src="/asset/image/hero.png" alt="mainImage">
 
@@ -53,14 +57,15 @@
                 </a>
                 </div>
            
-                <div class="recommendation__card"><a href='/pages/iceland.html'; style="cursor: pointer;">
+                <div class="recommendation__card">
+                    <a onclick="location.href='/pages/iceland.html'; "style="cursor: pointer;">
                     <div class="recommendation__card--iceland">
                         <h3 class="recommendation__subtitle">Iceland</h3>
                     </div>
                     </a>
                 </div>
                 <div class="recommendation__card" > 
-                    <a href='/pages/greece.html'; style="cursor: pointer;">
+                    <a onclick="location.href='/pages/greece.html'; "style="cursor: pointer;">
                     <div class="recommendation__card--greece">
                         <h3 class="recommendation__subtitle">Greece</h3>
                     </div>
@@ -87,7 +92,7 @@
             <div class="footer__hour-Details">
                 <div class="footer__hour-Daytime">
                     <h4 class="footer__hour-days">Monday-Friday</h4>
-                    <p>9am-7pm</p>
+                    <p class ="footer__hour-daytime">9am-7pm</p>
                 </div>
                 <div>
                     <h4 class="footer__hour-days">Saturday </h4>

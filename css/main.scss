@@ -1,8 +1,6 @@
-  @mixin maincontainersentence {
-      margin-left: 70px;
-  }
+@use 'mixin' as *;
 
-  .maincontainer {
+.maincontainer {
       background-color:#FEFAF5;
       height: 500px;
       display: flex;
@@ -18,6 +16,7 @@
 
           font-size: 40px;
           color: #335576;
+          text-transform: capitalize;
       }
 
     
@@ -38,6 +37,17 @@
             cursor: pointer;
 
       }
+
+ 
+
+.btn-white::after {
+    background-color: #335576;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
     }
 
       &__Image {
@@ -51,11 +61,34 @@
 
   }
 
+  @include desktop {
+
+    .maincontainer {
+
+        &__title{
+         font-size:30px ;
+         
+    
+       }
+
+    &__Image{
+        width: 300px;
+        height: 300px;
+    }
+
+
+
+
+
+    } 
+  }
+
+
   /*---------------------*/
 
   .recommendation {
 
-      height: 500px;
+      
      // position: relative;
       margin-left: 100px;
       margin-top: 20px;
@@ -67,9 +100,17 @@
           margin-right: 100px;
           margin-left: 0px;
           margin-bottom: 100px;
+          margin-top: 50px;
       }
 
       &__card {
+
+        &:hover {
+            
+            transform: scale(1.1);
+            text-shadow: none;
+          }
+        
 
 
           &--hawaii {
@@ -125,10 +166,12 @@
 
       &__subtitle{
          
-         position:absolute;
-         top: 159vh;
+         position:relative;
+         top: 60vh;
+         
           margin-left: 200px;
          color: #FFFFFF;
+         text-decoration: none;
       
 
     
@@ -140,6 +183,34 @@
 
 
   }
+
+  @include desktop {
+    .recommendation{
+
+        &__card{
+
+            &--greece{
+                margin-top: 20px;
+            }
+
+        }
+
+    }
+
+  }
+
+  @include tablet {
+    .recommendation{
+
+        &__card{
+
+
+        }
+
+    }
+
+  }
+
 
  
   

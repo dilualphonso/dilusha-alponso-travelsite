@@ -39,6 +39,11 @@
 .formcontainer__group {
   margin-bottom: 1rem;
   margin-left: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.formcontainer__title {
+  margin-left: 20px;
+  color: #335576;
 }
 .formcontainer__btn {
   display: inline-block;
@@ -70,6 +75,7 @@
   border: 1px solid #ced4da;
   outline: none;
   border-radius: 0.5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .formcontainer__field {
   width: 50%;
@@ -104,4 +110,7 @@
   width: 400px;
   background-size: cover;
   margin-left: 20px;
+}
+.formcontainer__google h2 {
+  color: #335576;
 }/*# sourceMappingURL=getstarted.css.map */

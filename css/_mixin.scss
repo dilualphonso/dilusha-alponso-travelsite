@@ -1,0 +1,22 @@
+
+$breakpoint_desktop :1024px;
+$breakpoint_tablet:768px;
+
+@mixin desktop {
+  @media (min-width:$breakpoint_desktop ) and (max-width:1279px) {
+
+    @content;
+    
+  }
+    
+}
+
+@mixin tablet {
+ @media 
+  
+(min-width:$breakpoint_tablet) and (min-width:$breakpoint_desktop){
+
+@content;
+
+ }
+}

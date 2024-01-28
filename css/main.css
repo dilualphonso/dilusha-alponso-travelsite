@@ -12,6 +12,7 @@
 .maincontainer__title {
   font-size: 40px;
   color: #335576;
+  text-transform: capitalize;
 }
 .maincontainer__button {
   width: 150px;
@@ -27,6 +28,13 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
+.maincontainer__button .btn-white::after {
+  background-color: #335576;
+}
+.maincontainer__button .btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
 .maincontainer__Image {
   width: 500px;
   height: 400px;
@@ -34,9 +42,17 @@
   padding-right: 70px;
 }
 
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .maincontainer__title {
+    font-size: 30px;
+  }
+  .maincontainer__Image {
+    width: 300px;
+    height: 300px;
+  }
+}
 /*---------------------*/
 .recommendation {
-  height: 500px;
   margin-left: 100px;
   margin-top: 20px;
 }
@@ -47,6 +63,11 @@
   margin-right: 100px;
   margin-left: 0px;
   margin-bottom: 100px;
+  margin-top: 50px;
+}
+.recommendation__card:hover {
+  transform: scale(1.1);
+  text-shadow: none;
 }
 .recommendation__card--hawaii {
   list-style: none;
@@ -85,11 +106,18 @@
   border: 1px solid rgba(0, 0, 0, 0.2);
 }
 .recommendation__subtitle {
-  position: absolute;
-  top: 159vh;
+  position: relative;
+  top: 60vh;
   margin-left: 200px;
   color: #FFFFFF;
+  text-decoration: none;
 }
 .recommendation__title {
   color: #335576;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .recommendation__card--greece {
+    margin-top: 20px;
+  }
 }/*# sourceMappingURL=main.css.map */

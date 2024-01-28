@@ -1,3 +1,5 @@
+@import 'mixin' ;
+
 body,html,head {
     margin: 0;
     padding: 0;
@@ -37,10 +39,17 @@ hr{
 
 }
 
+
+
 .nav__logo {
     color: #335576;
     margin-left: 100px;
 
+}
+.nav__logo a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #335576;
 }
 
 .nav__links {
@@ -48,8 +57,10 @@ hr{
     list-style: none;
     padding-left: 10px;
     margin-right: 50px;
-}
 
+
+  
+}
 .nav__links li {
     padding-left: 10px;
     margin: 10px;
@@ -58,11 +69,28 @@ hr{
 
 }
 
+
+
+
+
 .nav__links li a {
     text-decoration: none;
     color: #000;
 
 }
+
+.nav__links li:hover {
+    color: white;
+    transform: scale(1.2);
+    text-shadow: none;
+  }
+
+.nav__links--Home a {
+    border-bottom: 5px solid #DB7A4E ;
+}
+
+
+
 
 
 
@@ -72,9 +100,12 @@ hr{
     display: flex;
     margin-top: 30px;
     justify-content: space-evenly;
-
-    height:200px;
     background-color: #FEFAF5;
+    /* background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+    left: 0pt */
    
 
 }
@@ -142,13 +173,32 @@ hr{
     color: #335576;
 
 }
-.footer__social-imgs{
-    display: flexbox;
-    justify-content: space-around;
 
-}
 
 .footer__social{
     margin-right: 130px;
 }
+
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .footer__social-imgs {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      
+    }
+
+    .footer__hour-daytime{
+        margin: 0;
+    }
+
+    .footer__social-title{
+        margin-right:50px
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1024px){
+
+}
+
 
