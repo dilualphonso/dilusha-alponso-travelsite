@@ -1,0 +1,145 @@
+  @mixin maincontainersentence {
+      margin-left: 70px;
+  }
+
+  .maincontainer {
+      background-color:#FEFAF5;
+      height: 500px;
+      display: flex;
+      margin-top: 40px;
+
+      &__sentences {
+          padding-top: 100px;
+          margin-left: 100px;
+          padding-right: 100px;
+      }
+
+      &__title {
+
+          font-size: 40px;
+          color: #335576;
+      }
+
+    
+
+      &__button {
+
+          width: 150px;
+          height: 30px;
+          border-radius: 12px;
+          background-color: #DB7A4E;
+          color: #FFFFFF;
+          text-decoration: none;
+          border: none;
+
+          &:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+
+      }
+    }
+
+      &__Image {
+
+          width: 500px;
+          height: 400px;
+          padding-top: 70px;
+          padding-right: 70px;
+
+      }
+
+  }
+
+  /*---------------------*/
+
+  .recommendation {
+
+      height: 500px;
+     // position: relative;
+      margin-left: 100px;
+      margin-top: 20px;
+
+      &__cards {
+          display: flex;
+          justify-content: space-evenly;
+          flex-wrap: wrap;
+          margin-right: 100px;
+          margin-left: 0px;
+          margin-bottom: 100px;
+      }
+
+      &__card {
+
+
+          &--hawaii {
+              list-style: none;
+              box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+              width: 300px;
+              height: 70vh;
+              border-radius: 5px;
+              background-image: url('/asset/image/hawaii.jpg');
+              background-size: cover;
+              background-repeat: no-repeat;
+              background-position: right center;
+              border: 1px solid rgb(0, 0, 0, 0.2);
+              
+
+
+          }
+
+          &--iceland {
+              list-style: none;
+              box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+              border-radius: 5px;
+              background-image: url('/asset/image/iceland.jpg');
+              width: 300px;
+              height: 70vh;
+              background-size: cover;
+              background-repeat: no-repeat;
+              background-position: right center;
+              border: 1px solid rgb(0, 0, 0, 0.2);
+  
+
+          }
+
+          &--greece {
+
+              list-style: none;
+              box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+              border-radius: 5px;
+              background-image: url('/asset/image/greece.jpg');
+              width: 300px;
+              height: 70vh;
+              background-size: cover;
+              background-repeat: no-repeat;
+              background-position: right center;
+              border: 1px solid rgb(0, 0, 0, 0.2);
+
+          }
+
+
+
+
+      }
+
+      &__subtitle{
+         
+         position:absolute;
+         top: 159vh;
+          margin-left: 200px;
+         color: #FFFFFF;
+      
+
+    
+      }
+
+      &__title{
+        color: #335576;
+      }
+
+
+  }
+
+ 
+  

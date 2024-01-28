@@ -26,11 +26,14 @@ hr{
 
 .nav {
 
-    height: 30px;
+    height: 60px;
     background-color: #FFFFFF;
     padding-left: 10px;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    top:0;
+    width:100%;
 
 }
 
@@ -61,5 +64,91 @@ hr{
 
 }
 
+
+
 /*footer is added */
+
+.footer {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-evenly;
+
+    height:200px;
+    background-color: #FEFAF5;
+   
+
+}
+
+.footer__contact {
+    margin-left: 100px;
+    padding-left: 50px;
+    margin-right: 150px;
+}
+
+.footer__hour {
+
+    margin-right:50px;
+
+}
+
+.footer__contact-title {
+    margin-right: 50px;
+    display: flex;
+    color:#335576;
+   
+  
+
+}
+.footer__hour-title{
+    color: #335576;
+}
+
+.footer__hour-Details {
+    display: flex;
+    margin-right: 100px;
+   align-items: baseline;
+}
+
+.footer__hour-days {
+   margin-top: 20px;
+   margin-right: 50px;
+   color: #DB7A4E;
+    
+}
+.footer__contact-subtitle{
+    margin-top: 40px;
+    padding-top:0px;
+    color:#DB7A4E;
+
+}
+
+.footer__hour-Daytime{
+    margin-right: 0px;
+    padding-bottom: 10px;
+    margin-top: 0pxs;
+   
+
+}
+
+.footer__social-img{
+    width:20px;
+    height: 20px;
+    margin-right: 10px;
+
+}
+
+.footer__social-title{
+    margin-bottom: 60px;
+    color: #335576;
+
+}
+.footer__social-imgs{
+    display: flexbox;
+    justify-content: space-around;
+
+}
+
+.footer__social{
+    margin-right: 130px;
+}
 
