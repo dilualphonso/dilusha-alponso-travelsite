@@ -1,6 +1,5 @@
 .maincontainer {
   background-color: #FEFAF5;
-  height: 500px;
   display: flex;
   margin-top: 40px;
 }
@@ -40,11 +39,22 @@
   height: 400px;
   padding-top: 70px;
   padding-right: 70px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {
   .maincontainer__title {
     font-size: 30px;
+  }
+  .maincontainer__Image {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .maincontainer__title {
+    font-size: 25px;
   }
   .maincontainer__Image {
     width: 300px;
@@ -119,5 +129,34 @@
 @media (min-width: 1024px) and (max-width: 1279px) {
   .recommendation__card--greece {
     margin-top: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .recommendation__card--hawaii {
+    margin-bottom: 30px;
+  }
+  .recommendation__card--iceland {
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  .maincontainer {
+    margin-top: 400px;
+  }
+  .maincontainer__title {
+    font-size: 20px;
+  }
+  .maincontainer__Image {
+    width: 300px;
+    height: 300px;
+  }
+  .recommendation__card--hawaii {
+    margin-bottom: 30px;
+  }
+  .recommendation__card--iceland {
+    margin-bottom: 30px;
+  }
+  .recommendation__card--greece {
+    margin-bottom: 30px;
   }
 }/*# sourceMappingURL=main.css.map */

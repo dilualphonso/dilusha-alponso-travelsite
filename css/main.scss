@@ -2,7 +2,7 @@
 
 .maincontainer {
       background-color:#FEFAF5;
-      height: 500px;
+      
       display: flex;
       margin-top: 40px;
 
@@ -56,12 +56,15 @@
           height: 400px;
           padding-top: 70px;
           padding-right: 70px;
+          margin-top: 10px;
+          margin-bottom: 20px;
 
       }
 
   }
 
-  @include desktop {
+
+@include desktop {
 
     .maincontainer {
 
@@ -82,6 +85,33 @@
 
     } 
   }
+
+  
+  @include tablet {
+
+    .maincontainer {
+      
+      
+
+        &__title{
+         font-size:25px ;
+         
+    
+       }
+
+    &__Image{
+        width: 300px;
+        height: 300px;
+    }
+
+
+
+
+
+    } 
+  }
+
+ 
 
 
   /*---------------------*/
@@ -201,8 +231,18 @@
 
   @include tablet {
     .recommendation{
+        
 
         &__card{
+
+            &--hawaii {
+                margin-bottom: 30px;
+            }
+
+            &--iceland {
+                margin-bottom: 30px;
+            }
+
 
 
         }
@@ -210,6 +250,53 @@
     }
 
   }
+
+  @include phone {
+    .maincontainer{
+        margin-top: 400px;
+
+    }
+
+    .maincontainer {
+
+        &__title{
+         font-size:20px ;
+         
+    
+       }
+
+    &__Image{
+        width: 300px;
+        height: 300px;
+    }
+
+  }
+
+  .recommendation{
+        
+
+    &__card{
+
+        &--hawaii {
+            margin-bottom: 30px;
+        }
+
+        &--iceland {
+            margin-bottom: 30px;
+        }
+
+        &--greece{
+            margin-bottom: 30px;
+        }
+
+
+
+    }
+
+}
+
+  }
+
 
 
  

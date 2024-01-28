@@ -181,10 +181,14 @@ hr{
 
 
 @media (min-width: 1024px) and (max-width: 1279px) {
+    
+   
+    
     .footer__social-imgs {
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
+     
       
     }
 
@@ -197,8 +201,135 @@ hr{
     }
 }
 
-@media (min-width: 992px) and (max-width: 1024px){
+@media (min-width: 768px) and (max-width: 1024px) {
+    .footer{  
+        display: flex;
+    margin-top: 30px;
+    
+  
+    background-color: #FEFAF5;
 
+    }
+    
+    .footer__social-imgs {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+       
+        
+      } 
+
+      .footer__social-title{
+        margin-right:0px;
+        margin-bottom: 20px;
+    }
+
+    .nav{
+
+      
+    background-color: #FFFFFF;
+    padding-left: 10px;
+    display: flex;
+    justify-content: left;
+    position: fixed;
+    top:0;
+    width:100%;
+
+    }
+    .nav__logo{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    
+
+    .nav__links li {
+        padding-left: 10px;
+        
+        color: #000;
+        font-size: 15px;
+        
+    
+    }
+
+    .footer__contact {
+        margin-right: 0;
+        padding-left: 0;
+        margin-left: 0;
+      
+    }
+
+    .footer__hour{
+        margin-right: 0;
+        width:350px
+
+    }
+
+    .footer__social{
+        margin-right: 100px;
+    }
+    }
+
+    @media (min-width: 576px) and (max-width: 767px){
+        .nav{
+
+      
+            background-color: #FFFFFF;
+            padding-left: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            position: fixed;
+            top:0;
+            width:100%;
+        
+            }
+
+            .nav__logo{
+               
+                margin-left: 50px;
+                
+            }
+
+            .footer{  
+                display: flex;
+                flex-direction: column;
+            margin-top: 30px;
+            
+          
+            background-color: #FEFAF5;
+        
+            }
+
+            .footer__contact {
+                
+                margin-left: 10px;
+              
+            }
+
+            .footer__hour{
+                margin-left: 50px;
+                
+        
+            }
+            .footer__social{
+                margin-left: 50px;
+            }
+
+           
+.nav__links {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-left: 10px;
+    margin-right: 50px;
+    margin-left: 50px;
+
+
+  
 }
+
+
+    }
 
 
