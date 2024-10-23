@@ -36,33 +36,21 @@
     margin-right: 100px;
     margin-left: 100px;
     margin-bottom: 100px;
-
-
 }
-
-
 
 .destination__card {
     background: white;
-
     width: 300px;
     height: 400px;
-
     border-radius: 8px;
-
-
     list-style: none;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-
-
 }
 
 .destination__title {
-
     margin-left: 100px;
     padding-top: 50px;
     margin-bottom: 50px;
-
 }
 
 .destination__card-top h3 {
@@ -71,43 +59,31 @@
 }
 
 .nav__links--hawaii a {
-
     border-bottom: 2px solid #DB7A4E;
-
 }
 
 .nav__links--iceland a {
-
     border-bottom: 2px solid #DB7A4E;
-
 }
 
 .nav__links--greece a {
-
     border-bottom: 2px solid #DB7A4E;
-
 }
 
 .destination__card-bottom {
     margin-right: 15px;
-
-
 }
 
 .destination__card-bottom ul li {
     list-style: none;
-
     text-align: center;
     padding-right: 30px;
     padding-bottom: 10px;
     padding-top: 10px;
     font-size: 20px;
     margin-bottom: 20px;
-
     padding-left: 10px;
-
     background-color: #FEFAF5;
-
     padding: 10px;
     margin-right: 20px;
 }
